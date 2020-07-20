@@ -10,7 +10,7 @@ class CustomizerRefreshComponent extends Component {
 		} = this.props.control.params
 
 		return (
-			<a className={ `button ${ this.props.control.params.class }` } onClick={ () => { wp.customize.previewer.refresh() } } href="#">{ label }</a>
+			<a className={ `button ${ this.props.control.params.class }` } onClick={ () => { wp.customize.previewer.refresh() } } href="#" > { label } </a>
 		);
 	}
 }
